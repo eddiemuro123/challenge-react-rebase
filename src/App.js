@@ -1,4 +1,5 @@
 import './App.css';
+import AutoReview from './components/autoReview'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           My really cool blog site
         </p>
       </header>
+      <AutoReview/>
     </div>
   );
 }
