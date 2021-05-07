@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.coolLogo {
+  width:10vw;
+  height: auto;
+  clip-path: circle(75px at center);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
